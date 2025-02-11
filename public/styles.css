@@ -1,0 +1,87 @@
+body{
+    background: linear-gradient(to bottom, rgb(254, 233, 236),rgb(249, 173, 186));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#card{
+    
+    width:90%;
+    height: 60% ;
+    
+    border-radius: 8%;
+    box-shadow:  5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+#img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    margin: 0;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 2rem;
+    height: 15%;
+    margin: 0;
+   
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    margin-top: 20px;
+}
+.yes-btn, .no-btn{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    cursor: pointer;
+    font-size: 1.3rem;
+    transition: background-color 0.3s ease;
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.yes-btn{
+    background-color: green;
+   
+}
+
+.no-btn{
+    background-color: red;
+   
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media(min-width:768px){
+
+    #card{
+    
+        width:400px;
+        height: 60% ;
+        
+        border-radius: 8%;
+        box-shadow:  5px 5px 15px rgba(0, 0, 0, 0.1);
+    }
+}
